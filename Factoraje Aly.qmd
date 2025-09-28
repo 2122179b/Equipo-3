@@ -1,0 +1,110 @@
+---
+title: "Presentación de Matemáticas de Aly"
+author: "Aly"
+format: html
+---
+
+    Ventajas y Desventajas:
+    
+      Ventajas:
+      
+        1. Proporciona liquidez y flujo de efectivo.
+            Por medio del factoraje las empresas consiguen liquidez inmediata para la ejecución de sus operaciones, ya sea para pagar deudas, o invertir.
+        2. Mejora el acceso al crédito.
+            El factoraje permite a los negocios mejorar su calificación crediticia, ya que cumplir con los pagos a tiempo es una señal de buena salud financiera, permitiéndoles que eventualmente puedan solicitar un préstamo empresarial. 
+        3. Ahorro de tiempo y recursos. 
+            El factoraje puede reducir tiempo y los recursos necesarios para administrar y cobrar las cuentas por cobrar, ya que la entidad financiera especializada en factoring se encarga de la gestión y de las cuentas por cobrar. Y esa energía se puede redirigir a otras actividades de creación de negocios, como ventas marketing y desarrollo de clientes. 
+        4. No genera deuda. 
+            A diferencia de los préstamos tradicionales, el factoraje no implica la creación de una deuda. Las empresas solo pagan una comisión por el servicio.
+        5. Posibilidad de enfrentar imprevistos.
+            El factoraje permite a las empresas adaptarse a cambios inesperados en la demanda o en el mercado, proporcionando los recursos necesarios para responder rápidamente a nuevas oportunidades o desafíos. 
+      
+    Desventajas: 
+      
+        1. Costo alto.
+          Aunque el factoraje brinda acceso inmediato a efectivo, las empresas de factoraje suelen quedarse con entre el 1% y el 4% de una cuenta por cobrar por comisión. Además de esto, también cobran un interés sobre el anticipo de efectivo proporcionado. 
+        2. Responsabilidad ante impago. 
+          En caso de impago, pueden existir penalizaciones que afecten a tu empresa o la relación con tu comprador.
+          
+    
+    Enfoque cuantitativo / financiero.
+```{r echo=FALSE}
+#tabla de flujo de efectivo
+flujo <- data.frame(
+  Mes = c("Enero", "Febrero", "Marzo"),
+  Sin_Factoraje = c(0, 0, 100000),
+  Con_Factoraje = c(80000, 0, 20000)
+)
+
+# Convertir los números a formato legible
+flujo$Sin_Factoraje <- format(flujo$Sin_Factoraje, big.mark = ",", scientific = FALSE)
+flujo$Con_Factoraje <- format(flujo$Con_Factoraje, big.mark = ",", scientific = FALSE)
+
+# Mostrar la tabla
+knitr::kable(flujo, caption = "Comparación de flujo de efectivo con y sin factoraje")
+```
+
+
+```{r echo=FALSE}
+# Cargar el paquete
+library(ggplot2)
+
+# Crear los datos
+flujo <- data.frame(
+  Mes = rep(c("Enero", "Febrero", "Marzo"), each = 2),
+  Tipo = rep(c("Sin Factoraje", "Con Factoraje"), times = 3),
+  Monto = c(0, 80000, 0, 0, 100000, 20000)
+)
+
+# Crear el gráfico
+ggplot(flujo, aes(x = Mes, y = Monto, fill = Tipo)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Comparación de flujo de efectivo con y sin factoraje",
+       y = "Monto ($)",
+       x = "Mes") +
+  scale_y_continuous(labels = scales::comma) +
+  theme_minimal()
+```
+
+
+    Casos reales y aplicaciones prácticas. 
+       
+      En México son pocas las empresas que utilizan el factoraje, aunque ha tenido un aumento en los últimos años. Según la Encuesta Nacional de Financiamiento de las empresas solo el 2% de las empresas mexicanas utilizaron el factoraje financiero en 2020; sin embargo, el 97% de las empresas nunca han recurrido a esta herramienta debido, principalmente al desconocimiento.
+      
+       Algunas de las empresas que otorgan factoraje son:
+       
+         1. HSBC.
+            HSBC tiene la capacidad para mejorar la liquidez, controlar las transacciones, y brindar asesoramiento para mejorar la compra pagos a los proveedores y financiamiento inmediato. 
+            
+         2. Banco Interacciones. 
+            Esta banda comercial está estructurada para prestar servicio y acompañamientos a personas, empresas, entes gubernamentales, negocios agropecuarios, factoraje, financiamiento, etc.
+          
+         3. Banorte. 
+            Tiene una gran variedad de servicios y productos, en especial su servicios de Factoraje a proveedores, pensado en brindar apoyo para que fortalezcan su manejo en tesorería, financien cuentas por pagar y otorgar a proveedores liquidez a través del sistema electrónico. 
+        
+         4. BBVA. 
+            Asiste los requerimientos de las empresas que desean mejorar su funcionamiento financiero. 
+        
+      
+          Algunas empresas que usan facotraje son: 
+          
+          1. CEMEX. (Construcción)
+            Tiene una línea de factoraje con BBVA para apoyar a sus proveedores.
+        
+          2. Arteche: (Equipos eléctricos)
+            Lanzó una línea de factoraje inverso sostenible con con BID Invest y eFactor para sus proveedores en México.
+            
+          3. Grupo Alfa. (Manufactura)
+            Está indcrito en el programa de factoraje ofrecido por el Consejo Mexicano de Negocios y BID Invest. 
+          
+          4. Mabe. (Electrodomésticos)
+            Es una de las empresas registradas en CMN-BID Invest para dar acceso de factoraje inverso a sus proveedores. 
+
+      
+      Aplicaciones Actuariales y en Ciencia de Datos.
+      
+          El factoraje puede integrarse en modelos actuariales como en: 
+        
+            Valor presente de facturas: Para poder estimar liquidez futura. 
+            Modelos de riesgo de impago: Utilizando regresión logística o árboles de decisión. 
+            Simulación de escenarios: ¿Qué pasa si el cliente no paga? ¿Cómo afecta eso al flujo de caja?
