@@ -197,15 +197,19 @@ plot(plazos, N, type="b", col="pink", pch=16,
 ### Oportunudades del facoraje en el futuro
 
 #### Digitalización del proceso:
+
 La automatización de facturas y documentos digitales radicen los costos y tiempos, actualmente permiten operaciones más rápidas, seguras y transparentes, las plataformas tecnologicas amplían el acceso, incluso para pequeñas empresas.
 
 #### Mayor inclusión financiera:
+
 El facoraje digital es una puerta de entrada al financiamiento para PYMES que normalmente no acceden al crédito bancario.
 
 #### Gestión eficiente de riesgos: 
+
 Con herramientas digitales, las entidades financieras tienen mejor control de la información y de la solvencia de los clientes lo cual abre las puertas de ofrecer tasas mas competitivas y personalizadas.
 
 #### Agilidad y liquidez inmediata: 
+
 Empresas pueden transformar facturas en efectivo con mayor rapidez, lo que fortalece su flujo de caja y su capacidad de respuesta a cambio en el mercado. ---
 ```
 
