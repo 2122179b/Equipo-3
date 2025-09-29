@@ -1,12 +1,36 @@
 ---
-title: "Factoraje de Aly"
-author: "Aly"
-format: html
+title: "Exposición del Equipo 3: Factoraje"
+author: "Aly Dalai Guerrero Padilla, Diana Berenice Jerónimo Douglas, Mary Jose Uribe Pimienta"
+format:
+  html: 
+    page-layout: full
+    theme: cosmo
+    css: styles.css
+editor: visual
 ---
 
-    Ventajas y Desventajas:
+# Factoraje
+### Exposición del Equipo 3
+
+---
+
+## Universidad
+**Universidad: ** Universidad Michoacana de San Nicolás de Hidalgo
+**Materia: ** Matemáticas Financieras
+
+---
+
+## Integrantes del equipo
+
+- Aly Dalai Guerrero Padilla
+- Diana Berenice Jerónimo Douglas
+- Mary Jose Uribe Pimienta
+
+---
+
+## Ventajas y Desventajas:
     
-      Ventajas:
+### Ventajas:
       
         1. Proporciona liquidez y flujo de efectivo.
             Por medio del factoraje las empresas consiguen liquidez inmediata para la ejecución de sus operaciones, ya sea para pagar deudas, o invertir.
@@ -19,7 +43,7 @@ format: html
         5. Posibilidad de enfrentar imprevistos.
             El factoraje permite a las empresas adaptarse a cambios inesperados en la demanda o en el mercado, proporcionando los recursos necesarios para responder rápidamente a nuevas oportunidades o desafíos. 
       
-    Desventajas: 
+### Desventajas: 
       
         1. Costo alto.
           Aunque el factoraje brinda acceso inmediato a efectivo, las empresas de factoraje suelen quedarse con entre el 1% y el 4% de una cuenta por cobrar por comisión. Además de esto, también cobran un interés sobre el anticipo de efectivo proporcionado. 
@@ -67,11 +91,11 @@ ggplot(flujo, aes(x = Mes, y = Monto, fill = Tipo)) +
 ```
 
 
-    Casos reales y aplicaciones prácticas. 
+## Casos reales y aplicaciones prácticas. 
        
       En México son pocas las empresas que utilizan el factoraje, aunque ha tenido un aumento en los últimos años. Según la Encuesta Nacional de Financiamiento de las empresas solo el 2% de las empresas mexicanas utilizaron el factoraje financiero en 2020; sin embargo, el 97% de las empresas nunca han recurrido a esta herramienta debido, principalmente al desconocimiento.
       
-       Algunas de las empresas que otorgan factoraje son:
+### Algunas de las empresas que otorgan factoraje son:
        
          1. HSBC.
             HSBC tiene la capacidad para mejorar la liquidez, controlar las transacciones, y brindar asesoramiento para mejorar la compra pagos a los proveedores y financiamiento inmediato. 
@@ -86,7 +110,7 @@ ggplot(flujo, aes(x = Mes, y = Monto, fill = Tipo)) +
             Asiste los requerimientos de las empresas que desean mejorar su funcionamiento financiero. 
         
       
-        Algunas empresas que usan facotraje son: 
+### Algunas empresas que usan facotraje son: 
           
           1. CEMEX. (Construcción)
             Tiene una línea de factoraje con BBVA para apoyar a sus proveedores.
@@ -101,7 +125,7 @@ ggplot(flujo, aes(x = Mes, y = Monto, fill = Tipo)) +
             Es una de las empresas registradas en CMN-BID Invest para dar acceso de factoraje inverso a sus proveedores. 
 
       
-      Aplicaciones Actuariales y en Ciencia de Datos.
+## Aplicaciones Actuariales y en Ciencia de Datos.
       
           El factoraje puede integrarse en modelos actuariales como en: 
         
