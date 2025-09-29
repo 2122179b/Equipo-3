@@ -38,7 +38,7 @@ El factoraje no solo involucra la venta de facturas pendientes de cobro, sino qu
 
 Lo que se pretende lograr en esta investigación es analizar y describir como influye el factoraje en la actualidad a las empresas, profundizando en como se lleva a cabo su cálculo financiero.
 
-###Antedentes Historicos del Factoraje
+### Antedentes Historicos del Factoraje
 
 #### Origenes 
 Sus origenes se remontan a la antigua Roma, donde los comerciantes usaban factores mercantiles para administrar las ventas de sus mercancías
