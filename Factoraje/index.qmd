@@ -11,7 +11,7 @@ editor: visual
 
 # Factoraje
 ### Exposición del Equipo 3
-
+ 
 ---
 
 ## Universidad
@@ -37,6 +37,43 @@ El factoraje es una herramienta que las empresas utilizan para obtener financiac
 El factoraje no solo involucra la venta de facturas pendientes de cobro, sino que también aspectos de liquidez rápida y gestionamiento del flujo de efectivo.
 
 Lo que se pretende lograr en esta investigación es analizar y describir como influye el factoraje en la actualidad a las empresas, profundizando en como se lleva a cabo su cálculo financiero.
+
+### Antedentes Historicos del Factoraje
+
+#### Origenes 
+Sus origenes se remontan a la antigua Roma, donde los comerciantes usaban factores mercantiles para administrar las ventas de sus mercancías
+
+#### Edad Media 
+El uso de los factores mercantiles se expandió por europeas, ya que gracias a estos a traves de la exportación se empezó a promover la comercialización de los productos
+
+#### E.U.A
+
+En el siglo XIX la población (en rápida expansión) los factores empezaron a ser muy relevante para exportaciones eurpeas, especialemenete en textiles, éstos se encargaban de almacenar bienes, encontrar compradores, entregar productos y cobrar.
+
+Con el paso del tiempo, se empezaron a ofrecer préstamos garantizados con la mercancía, hasta que, posteriormente, el papel del factor cambió,ya que, ya no almacenaban, ahora financiaban con base en cuentas por cobrar.
+
+#### Europa:
+
+En el siglo XX se practicaba la cesión de facturas confidencialmente, hasta que hubo pérdidas por insolvencias y deducciones de compradores. Con el paso del tiempo y por influencia de del modelo estadounidense, se adoptó el factoraje moderno que consistía cesión de factoraje con o sin recurso, siempre con notificador al comprador.
+
+#### Asia y el Pacífico: 
+
+En la década de los 80s solo se usaban cartas de crédito, luego, con mayor globalización, creció el factoraje transfronterizo y más recientemente el domestico
+
+#### Resto del mundo
+
+Por otro lado en la decada de los 70s el factoraje se expandió en Sudáfrica y en otros países. En el 2017 el comercio mundial alcanzó caso 20 billones de dolares, y factoraje generó más de 2.5 billones de euros. Impulsada por la expansión de Asia, el aumento del factoraje internacional y la transición de la banca tradicional hacia subsidiarias dedicadas al factoraje, dando paso al crecimiento global.
+
+### Antecedentes en México:
+
+#### 80s: 
+En 1982 tras la estatización bancaria, se creó la figura de empresas de factoraje,inicialmente controladas por bancos. No había legislación específica ni supervisión de la Secreataría de Hacienda.
+
+#### 90s 
+Reconocimiento formal en la Ley de Organizaciones y Actividades Auxiliares del Crédito, donde se agregó el capítulo "De las Empresas de Factoraje Financiero". Con esto, las empresas de factoraje pasaron a ser organizaciones auxiliares de crédito. En 1993 con el TLCAN se crearon las SOFOLES (Sociedades Financieras de Objeto Limitado), como intermediaros de propósito único, incluyendo factoraje.
+
+#### 2006 
+Reforma legal que dio origen a las SOFOMES (Sociedades Financieras de Objeto Múltiple), con facultades para ptprgar crédito, arrendamiento financiero y factoraje financiero.
 
 ### Definición
 
@@ -156,8 +193,26 @@ N <- F * (1 - d * plazos/B)
 plot(plazos, N, type="b", col="pink", pch=16,
      main="Efectivo recibido según plazo",
      xlab="Plazo (días)", ylab="Monto neto recibido ($)")
-
 ```
+
+### Oportunudades del facoraje en el futuro
+
+#### Digitalización del proceso:
+
+La automatización de facturas y documentos digitales radicen los costos y tiempos, actualmente permiten operaciones más rápidas, seguras y transparentes, las plataformas tecnologicas amplían el acceso, incluso para pequeñas empresas.
+
+#### Mayor inclusión financiera:
+
+El facoraje digital es una puerta de entrada al financiamiento para PYMES que normalmente no acceden al crédito bancario.
+
+#### Gestión eficiente de riesgos: 
+
+Con herramientas digitales, las entidades financieras tienen mejor control de la información y de la solvencia de los clientes lo cual abre las puertas de ofrecer tasas mas competitivas y personalizadas.
+
+#### Agilidad y liquidez inmediata: 
+
+Empresas pueden transformar facturas en efectivo con mayor rapidez, lo que fortalece su flujo de caja y su capacidad de respuesta a cambio en el mercado. ---
+
 
 ##Ventajas y Desventajas: 
 
