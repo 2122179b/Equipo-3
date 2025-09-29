@@ -195,7 +195,7 @@ plot(plazos, N, type="b", col="pink", pch=16,
      xlab="Plazo (días)", ylab="Monto neto recibido ($)")
 ```
 
-##Ventajas y Desventajas: 
+## Ventajas y Desventajas: 
 
 ### Ventajas:
       
@@ -300,7 +300,7 @@ El factoraje puede integrarse en modelos actuariales como en:
   Modelos de riesgo de impago: Utilizando regresión logística o árboles de decisión. 
   Simulación de escenarios: ¿Qué pasa si el cliente no paga? ¿Cómo afecta eso al flujo de caja?
 
-### Oportunudades del facoraje en el futuro
+## Oportunudades del facoraje en el futuro
 
 #### Digitalización del proceso:
 
