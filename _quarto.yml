@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Factoraje Financiero"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Empresas"
+        href: empresas.qmd
+      - text: "Simulaciones"
+        href: simulaciones.qmd

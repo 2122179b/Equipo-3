@@ -1,0 +1,12 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Factoraje Financiero"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+
+
